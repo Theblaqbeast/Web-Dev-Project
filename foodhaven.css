@@ -8,19 +8,21 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center;
+}
+.navbar ul{
+    border: 1px solid black;
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    margin-right: 40px;
 }
 
-.navbar {
-    border: 1px solid black;
-    width: 200px;
-    display: flex;
-}
 
 .navbar a {
     text-decoration: none;
     list-style: hidden;
-    border: ;
 }
 
 .carousel {
@@ -91,4 +93,8 @@ button {
 
 footer {
     text-align: center;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    font-size:10px;
 }
